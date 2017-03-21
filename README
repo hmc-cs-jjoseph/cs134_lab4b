@@ -1,0 +1,14 @@
+NAME: Jesse Joseph
+EMAIL: jjoseph@hmc.edu
+ID: 040161840
+
+Files:
+ - lab4b.c : c source module defining lab4b program
+ - Makefile : lab4b (default), clean, and dist targets
+ - README : this file
+
+About:
+ - Sometimes, the first measurement is a little off, about 10 degrees low. I
+ am unsure why - perhaps an offset error on the first use of the ADC, or a 
+ hysteresis effect of the sensor itself, although thermistors generally have 
+ very fast response times.
