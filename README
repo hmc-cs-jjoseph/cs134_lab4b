@@ -6,6 +6,7 @@ Files:
  - lab4b.c : c source module defining lab4b program
  - Makefile : lab4b (default), clean, and dist targets
  - README : this file
+ - lab4b-040161840.tar.gz : distribution tarball
 
 About:
  - Sometimes, the first measurement is a little off, about 10 degrees low. I

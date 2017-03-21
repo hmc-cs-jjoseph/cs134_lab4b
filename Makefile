@@ -1,7 +1,10 @@
+# Jesse Joseph
+# jjoseph@hmc.edu
+# 040161840
+#
 GXX=gcc -std=c11
 FLAGS=-Wall -Wextra -Wpedantic
 LIBS=-lmraa -lpthread -lm
-
 
 lab4b: lab4b.c
 	$(GXX) lab4b.c -o lab4b $(LIBS) $(FLAGS)
