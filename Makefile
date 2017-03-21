@@ -8,10 +8,11 @@ lab4b: lab4b.c
 
 clean:
 	-rm lab4b
+	-rm logfile
 
 dist:
 	tar -czvf lab4b-040161840.tar.gz lab4b.c Makefile README
 
 test:
 	make lab4b
-	./lab4b
+	./lab4b --log=logfile
