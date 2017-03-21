@@ -13,3 +13,10 @@ About:
  am unsure why - perhaps an offset error on the first use of the ADC, or a 
  hysteresis effect of the sensor itself, although thermistors generally have 
  very fast response times.
+
+Resources used, aside from those referenced in the project description:
+ - https://www.gnu.org/software/libc/manual/html_node/Waiting-for-I_002fO.html
+ 	- reference on use of select to check if read on a file descriptor will
+	block
+ - http://stackoverflow.com/questions/3324078/why-select-always-return-0-after-the-first-timeout
+  - help debugging select
